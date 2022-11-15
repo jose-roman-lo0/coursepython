@@ -1,0 +1,1 @@
+print("my","own","example",sep="_")
