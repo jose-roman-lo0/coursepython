@@ -1,0 +1,1 @@
+print("example","several","parameters",sep="*",end="+")
