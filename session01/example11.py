@@ -1,2 +1,6 @@
-print(2 ** 2 ** 3)
-print((2 % -4), (2 % 4), (2 ** 3 ** 2))
+#Precedence
+print(4+3*5**2)
+#Binding
+print(2 ** 3 ** 2)
+#parentheses
+print((2 ** 3) ** 2)
