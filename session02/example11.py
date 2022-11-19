@@ -11,6 +11,22 @@ x = 2
 for i in range(11):
     print (x**i)
 
-for i in range(10):
+# Using more real actions
+for i in range(5):
     print(i," waiting Ms Daysy")
     time.sleep(1)
+
+# Break and continue example
+for i in range(10):
+    if (i == 3):
+        continue
+    if (i == 6):
+        break
+    print("Printing inside the loop, loop number: ",i)
+print("printing outside the loop")
+
+# Example for odd numbers with continue
+for i in range(10):
+    if(not (i % 2)):
+        continue
+    print(i," is an odd number")

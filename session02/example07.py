@@ -7,4 +7,5 @@ if (answer == "1"):
 elif(answer == "2"):
     aprint("car")
 else:
-    print("Maybe you like bike!!!")
+    print("Maybe you are in the middle of exorcism!!!")
+    aprint("exorcism")
