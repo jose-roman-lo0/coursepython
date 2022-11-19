@@ -38,3 +38,9 @@ while (j<5):
     print("Inside of while")
 else:
     print("Inside of else")
+
+# Example using else in loops
+for i in range(2,1):
+     print("Inside of for")
+else:
+    print("Inside of else")
