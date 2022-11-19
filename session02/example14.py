@@ -15,3 +15,5 @@ print("Lenght of list is: ",len(my_list))
 # Remove an element
 del my_list[0]
 print(my_list)
+
+# More manipulation
