@@ -1,6 +1,6 @@
 import requests
 import json
-api_key = "57512bbaced655997532143fdc331b03"
+api_key = "XXXXXXXXXXXXXXXXXXXX"
 lat = "49.5955"
 lon = "17.2518"
 url = "http://api.openweathermap.org/data/2.5/onecall?lat=%s&lon=%s&appid=%s&units=metric" % (lat, lon, api_key)
