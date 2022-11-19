@@ -30,3 +30,11 @@ for i in range(10):
     if(not (i % 2)):
         continue
     print(i," is an odd number")
+
+# Example using else in loops
+j = 8
+i = 1
+while (j<5):
+    print("Inside of while")
+else:
+    print("Inside of else")
