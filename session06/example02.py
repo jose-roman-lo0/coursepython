@@ -1,15 +1,15 @@
 class MobilePhone:
-      def __init__(self, number):
-    self.number = number
+    def __init__(self, number):
+      self.number = number
   
-  def turn_on(self):
-    return f"Mobile phone {self.number} is turned on"
+    def turn_on(self):
+        return f"Mobile phone {self.number} is turned on"
   
-  def turn_off(self):
-    return "Mobile phone is turned off"
+    def turn_off(self):
+        return "Mobile phone is turned off"
   
-  def call(self, number):
-    return f"Calling {number}"
+    def call(self, number):
+        return f"Calling {number}"
 
 phone1 = MobilePhone("123-456-7890")
 phone2 = MobilePhone("098-765-4321")
